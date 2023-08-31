@@ -32,22 +32,19 @@ This is a solution to the Admin Dashboard Project on [The Odin Project](https://
 
 - Semantic HTML markup
 - CSS Grid
+- CSS Flexbox
 
 ### What I learned
 
-- Using CSS custom properties
-- How to properly layout vertical background image with -size, -position, -repeat
-- Flex-flow
-- Basic RegEx
-- Form validation
+- When to use Grid and when to use Flex
 
 ### Continued development
 
-- Apply mobile-first development
+- Mobile responsiveness
 
 ### Useful resources
 
-- [HTML Forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
+- [How can I add a box-shadow on one side of an element](https://stackoverflow.com/questions/5115427/how-can-i-add-a-box-shadow-on-one-side-of-an-element) This helped me create a one-sided box-shadow for the sidebar.
 
 ## Author
 

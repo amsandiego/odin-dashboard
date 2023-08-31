@@ -16,7 +16,7 @@
     <header class="header">
       <div class="search">
         <img src="./assets/search.png" alt="search-icon" />
-        <p>Search...</p>
+        <input type="search" name="search-result" id="search-bar" placeholder="Search..."></input>
       </div>
       <div class="profile">
         <img src="./assets/bell.png" alt="bell-icon" class="bell-icon" />
@@ -33,8 +33,10 @@
           alt="user profile big"
           class="profile-photo-big"
         />
-        <p>Hi there,</p>
-        <p>Annie (@amsandiego)</p>
+        <div class="welcome-text">
+            <p>Hi there,</p>
+            <p>Annie (@amsandiego)</p>
+        </div>
       </div>
       <div class="buttons">
         <button>New</button>
@@ -45,6 +47,7 @@
     <nav class="sidebar">
       <div class="sidebar-title">
         <img
+          class="owl"
           width="64"
           height="64"
           src="https://img.icons8.com/cotton/64/owl--v1.png"
@@ -78,24 +81,119 @@
     <main class="content">
       <div class="projects">
         <h4>Projects</h4>
-        <div class="card project-calc">
-          <p>Calculator</p>
+        <div class="card">
+            <div class="color-block"></div>
+            <div class="content-block">
+                <img src="./assets/calculator.png" alt="calculator-app" class="app-screenshot">
+                <h5>Calculator</h5>
+                <p>A simple calculator app built with HTML, CSS, and Vanilla JS</p>
+            </div>
+            <div class="action-block">
+                <img src="./assets/favorite.png" alt="favorite-icon">
+                <img src="./assets/fork.png" alt="fork-icon">
+                <a href="https://github.com/amsandiego/odin-calculator"><img src="./assets/code.png" alt="code-icon"></a>
+            </div>
         </div>
-        <div class="card project-etch">
-          <p>Etch-a-Sketch</p>
+        <div class="card">
+            <div class="color-block"></div>
+            <div class="content-block">
+                <img src="./assets/etch.png" alt="etch-a-sketch-app" class="app-screenshot">
+                <h5>Etch-a-Sketch</h5>
+                <p>A pixel-style sketch app built with HTML, CSS, and Vanilla JS</p>
+            </div>
+            <div class="action-block">
+                <img src="./assets/favorite.png" alt="favorite-icon">
+                <img src="./assets/fork.png" alt="fork-icon">
+                <a href="https://github.com/amsandiego/etch-a-sketch"><img src="./assets/code.png" alt="code-icon"></a>
+            </div>
         </div>
-        <div class="card project-rps">
-          <p>Rock, Paper, Scissors</p>
+        <div class="card">
+            <div class="color-block"></div>
+            <div class="content-block">
+                <img src="./assets/rps.png" alt="rock-paper-scissors-app" class="app-screenshot">
+                <h5>Rock, Paper, Scissors</h5>
+                <p>Rock-Paper-Scissors game built with HTML, CSS, and Vanilla JS</p>
+            </div>
+            <div class="action-block">
+                <img src="./assets/favorite.png" alt="favorite-icon">
+                <img src="./assets/fork.png" alt="fork-icon">
+                <a href="https://github.com/amsandiego/odin-rock-paper-scissors"><img src="./assets/code.png" alt="code-icon"></a>
+            </div>
         </div>
-        <div class="card project-form">
-          <p>Sign-up Form</p>
+        <div class="card">
+            <div class="color-block"></div>
+            <div class="content-block">
+                <img src="./assets/form.png" alt="sign-up-form" class="app-screenshot">
+                <h5>Sign-up Form</h5>
+                <p>A responsive mock sign-up form page built with HTML Forms</p>
+            </div>
+            <div class="action-block">
+                <img src="./assets/favorite.png" alt="favorite-icon">
+                <img src="./assets/fork.png" alt="fork-icon">
+                <a href="https://github.com/amsandiego/odin-sign-up-form"><img src="./assets/code.png" alt="code-icon"></a>
+            </div>
         </div>
       </div>
       <div class="side-cards">
         <div class="announcements">
           <h4>Announcements</h4>
+          <div class="announcement-content">
+            <div class="item">
+                <h4>Site Maintenance</h4>
+                <p>Cupcake ipsum dolor sit amet sweet roll cake.
+                    Candy canes chocolate bar liquorice sweet
+                    shortbread chocolate bar. </p>
+            </div>
+            <div class="border"></div>
+            <div class="item">
+                <h4>Community Share Day</h4>
+                <p>Icing ice cream sweet pastry tootsie roll brownie.
+                    Apple pie dragée pastry.</p>
+            </div>
+            <div class="border"></div>
+            <div class="item">
+                <h4>Updated Privacy Policy</h4>
+                <p>Oat cake gummies candy canes soufflé tootsie
+                    roll chocolate jelly-o dragée pudding.</p>
+            </div>
+
+          </div>
         </div>
-        <div class="trending"></div>
+        <div class="trending">
+            <h4>Trending</h4>
+            <div class="trending-content">
+                <div class="item">
+                    <img src="./assets/penguin.png" alt="penguin">
+                    <div class="item-text">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/bear.png" alt="bear">
+                    <div class="item-text">
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/butterfly.png" alt="butterfly">
+                    <div class="item-text">
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/unicorn.png" alt="unicorn">
+                    <div class="item-text">
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
       </div>
     </main>
   </body>
