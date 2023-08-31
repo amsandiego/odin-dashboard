@@ -141,6 +141,7 @@ li {
   display: flex;
   gap: 20px;
   align-items: center;
+  justify-content: flex-end;
   margin-left: 12rem;
 }
 

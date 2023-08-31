@@ -18,8 +18,7 @@ This is a solution to the Admin Dashboard Project on [The Odin Project](https://
 
 ### Screenshot
 
-![](./assets/screenshot-desktop.png)
-![](./assets/screenshot-mobile.png)
+![](./assets/screenshot.png)
 
 ### Links
 
@@ -45,6 +44,7 @@ This is a solution to the Admin Dashboard Project on [The Odin Project](https://
 ### Useful resources
 
 - [How can I add a box-shadow on one side of an element](https://stackoverflow.com/questions/5115427/how-can-i-add-a-box-shadow-on-one-side-of-an-element) This helped me create a one-sided box-shadow for the sidebar.
+- [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) A useful cheat sheet for all things grid
 
 ## Author
 
